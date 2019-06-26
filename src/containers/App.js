@@ -1,8 +1,8 @@
 import React  from 'react'
 import './App.css'
-import Sidebar from "./Sidebar/Sidebar"
-import Main from "./Main/Main"
-import store from './redux/store'
+import Sidebar from "../components/Sidebar/Sidebar"
+import Main from "../components/Main/Main"
+import store from '../redux/store'
 import _ from 'lodash'
 
 const App = () => {
