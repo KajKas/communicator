@@ -1,8 +1,9 @@
 import React from "react"
 import _ from 'lodash'
+import './ChatWindow.css'
 import store from '../../redux/store'
-import Header from "../Header/Header";
-import Chats from "../Chats/Chats";
+import Header from "../../components/Header/Header";
+import Chats from "../../components/Chats/Chats";
 
 const ChatWindow = ({ activeUserId }) => {
   const state = store.getState()

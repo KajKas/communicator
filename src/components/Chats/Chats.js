@@ -12,7 +12,7 @@ const Chat = ({ message }) => {
 class Chats extends Component {
   render() {
     return (
-      <div className={Chats}>
+      <div className='Chats'>
         {
           this.props.messages.map(
             message => (
